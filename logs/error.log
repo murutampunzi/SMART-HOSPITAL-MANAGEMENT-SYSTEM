@@ -1,0 +1,169 @@
+[26-May-2026 15:05:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'read = 0' at line 1 in C:\XAAMP\htdocs\SMART\config\database.php:129
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(129): mysqli->query('SELECT COUNT(*)...')
+#1 C:\XAAMP\htdocs\SMART\messages\index.php(85): query('SELECT COUNT(*)...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 129
+[26-May-2026 15:06:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\XAAMP\htdocs\SMART\auth\register.php:75
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\auth\register.php(75): mysqli_stmt->bind_param('issss', 6, '0788786722', 'rebecca@gmail.c...', 'RSA')
+#1 {main}
+  thrown in C:\XAAMP\htdocs\SMART\auth\register.php on line 75
+[26-May-2026 15:12:00 UTC] Error [2]: Undefined array key "REQUEST_METHOD" in C:\XAAMP\htdocs\SMART\auth\register.php on line 14
+[26-May-2026 15:14:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\XAAMP\htdocs\SMART\auth\register.php:68
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\auth\register.php(68): mysqli_stmt->bind_param('issss', 7, '0788786728', 'meash.224002765...', 'SouthAfrica- Jo...')
+#1 {main}
+  thrown in C:\XAAMP\htdocs\SMART\auth\register.php on line 68
+[26-May-2026 15:14:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\XAAMP\htdocs\SMART\auth\register.php:75
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\auth\register.php(75): mysqli_stmt->bind_param('issss', 8, '12345678', 'testdoctor@shms...', 'Test Address')
+#1 C:\XAAMP\htdocs\SMART\auth\test_submit_register.php(23): include('C:\\XAAMP\\htdocs...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\auth\register.php on line 75
+[26-May-2026 15:43:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\XAAMP\htdocs\SMART\appointments\book.php:89
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\appointments\book.php(89): mysqli_stmt->bind_param('siissssd', 'APT000001', 2, 1, '2026-05-29', '10:00', 'consultation', 'i had mild-cere...', 'doc mityline', '50.00')
+#1 {main}
+  thrown in C:\XAAMP\htdocs\SMART\appointments\book.php on line 89
+[26-May-2026 15:46:22 UTC] Error [2]: Undefined array key "REQUEST_METHOD" in C:\XAAMP\htdocs\SMART\appointments\book.php on line 29
+[26-May-2026 15:58:19 UTC] Error [2]: Undefined variable $temp°C in C:\XAAMP\htdocs\SMART\appointments\consultation.php on line 77
+[28-May-2026 16:14:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lt.code' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:152
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(152): mysqli->prepare('SELECT lr.*, p....')
+#1 C:\XAAMP\htdocs\SMART\laboratory\results.php(96): prepare('SELECT lr.*, p....')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 152
+[28-May-2026 16:19:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lt.code' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:152
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(152): mysqli->prepare('SELECT lr.*, p....')
+#1 C:\XAAMP\htdocs\SMART\laboratory\results.php(96): prepare('SELECT lr.*, p....')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 152
+[28-May-2026 16:22:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lt.code' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:152
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(152): mysqli->prepare('SELECT lr.*, p....')
+#1 C:\XAAMP\htdocs\SMART\laboratory\results.php(97): prepare('SELECT lr.*, p....')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 152
+[28-May-2026 16:22:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'lt.code' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:152
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(152): mysqli->prepare('SELECT lr.*, p....')
+#1 C:\XAAMP\htdocs\SMART\laboratory\results.php(97): prepare('SELECT lr.*, p....')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 152
+[28-May-2026 16:41:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pr.prescription_date' in 'order clause' in C:\XAAMP\htdocs\SMART\config\database.php:152
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(152): mysqli->prepare('SELECT pr.*, p....')
+#1 C:\XAAMP\htdocs\SMART\pharmacy\prescriptions.php(76): prepare('SELECT pr.*, p....')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 152
+[30-May-2026 16:51:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'read = 0' at line 1 in C:\XAAMP\htdocs\SMART\config\database.php:129
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(129): mysqli->query('SELECT COUNT(*)...')
+#1 C:\XAAMP\htdocs\SMART\messages\index.php(85): query('SELECT COUNT(*)...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 129
+[30-May-2026 17:05:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\XAAMP\htdocs\SMART\radiology\write_report.php:94
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\radiology\write_report.php(94): mysqli_stmt->bind_param('sssiisi', 'Radiographic ex...', 'No acute radiog...', '1. Correlate fi...', 1, 'signed', 2)
+#1 {main}
+  thrown in C:\XAAMP\htdocs\SMART\radiology\write_report.php on line 94
+[30-May-2026 17:25:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:151
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(151): mysqli->query('SELECT DISTINCT...')
+#1 C:\XAAMP\htdocs\SMART\messages\compose.php(184): query('SELECT DISTINCT...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 151
+[30-May-2026 17:25:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:151
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(151): mysqli->query('SELECT DISTINCT...')
+#1 C:\XAAMP\htdocs\SMART\messages\compose.php(184): query('SELECT DISTINCT...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 151
+[30-May-2026 17:29:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:151
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(151): mysqli->query('SELECT DISTINCT...')
+#1 C:\XAAMP\htdocs\SMART\messages\compose.php(184): query('SELECT DISTINCT...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 151
+[30-May-2026 17:29:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:151
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(151): mysqli->query('SELECT DISTINCT...')
+#1 C:\XAAMP\htdocs\SMART\messages\compose.php(184): query('SELECT DISTINCT...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 151
+[30-May-2026 17:32:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'field list' in C:\XAAMP\htdocs\SMART\config\database.php:151
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(151): mysqli->query('SELECT DISTINCT...')
+#1 C:\XAAMP\htdocs\SMART\messages\compose.php(181): query('SELECT DISTINCT...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 151
+[30-May-2026 17:32:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:34:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:34:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:34:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'm.recipient_id' in 'on clause' in C:\XAAMP\htdocs\SMART\config\database.php:174
+Stack trace:
+#0 C:\XAAMP\htdocs\SMART\config\database.php(174): mysqli->prepare('SELECT m.*, \n  ...')
+#1 C:\XAAMP\htdocs\SMART\messages\view.php(22): prepare('SELECT m.*, \n  ...')
+#2 {main}
+  thrown in C:\XAAMP\htdocs\SMART\config\database.php on line 174
+[30-May-2026 17:35:54 UTC] Error [2]: Undefined array key "recipient_id" in C:\XAAMP\htdocs\SMART\messages\view.php on line 101
+[30-May-2026 17:36:33 UTC] Error [2]: Undefined array key "recipient_id" in C:\XAAMP\htdocs\SMART\messages\view.php on line 101
+[30-May-2026 17:41:06 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
+[30-May-2026 17:41:08 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
+[30-May-2026 17:41:11 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
+[30-May-2026 17:41:15 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
+[30-May-2026 17:41:19 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
+[30-May-2026 17:41:51 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\XAAMP\htdocs\SMART\includes\functions.php on line 214
